@@ -25,14 +25,20 @@ This repository contains both the backend and frontend code for the Talent Match
    git clone https://github.com/your-username/talent-matcher.git
    cd talent-matcher
 ````
+2. **Build the Back end side
+   ```bash
+   cd matchmaker
+   ./gradlew.bat build
+   ```
+   This will generate the .jar that will be consumed through our docker compose file to launch the web app
 
-2. **Run the full stack application:**
+3. **Run the full stack application:**
 
    ```bash
    docker-compose up --build
    ```
 
-3. **Access the app:**
+4. **Access the app:**
 
    * **Frontend**: [http://localhost:3000](http://localhost:3000)
    * **Backend API**: [http://localhost:8080](http://localhost:8080)
